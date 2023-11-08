@@ -7,8 +7,10 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int sumNum(int x, int y);
+
+int main()
+{
+    std::cout << sumNum(7, 8) << '\n';
     return 0;
 }
